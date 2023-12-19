@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Image Blog</string>
+    <string name="button_post">게시물</string>
+    <string name="button_kids">지금 우리 아이는🐈</string>
+    <string name="button_stream">지금 보러 가기</string>
+    <string name="button_record">녹화 시작</string>
+    <string name="button_stop">녹화 중지</string>
+    <string name="state_sleeping">자는 중</string>
+</resources>

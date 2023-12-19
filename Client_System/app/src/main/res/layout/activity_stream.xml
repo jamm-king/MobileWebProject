@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- App Bar -->
+    <TextView
+        android:id="@+id/appBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/app_name"
+        android:textSize="24sp"
+        android:textColor="#FFFFFF"
+        android:background="#007ACC"
+        android:gravity="center"
+        android:padding="16dp" />
+
+    <!-- Image View -->
+    <ImageView
+        android:id="@+id/kidState"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/appBar"
+        android:src="@drawable/sleepingcat"
+        android:contentDescription="@string/state_sleeping" />
+
+    <!-- Button1 -->
+    <Button
+        android:id="@+id/myButton1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/kidState"
+        android:background="@drawable/button_selector"
+        android:text="@string/button_record" />
+
+    <!-- Button2 -->
+    <Button
+        android:id="@+id/myButton2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/myButton1"
+        android:background="@drawable/button_selector"
+        android:text="@string/button_stop"
+        android:enabled="false" />
+
+</RelativeLayout>
