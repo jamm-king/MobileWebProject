@@ -1,8 +1,8 @@
 Service is working on host : pos05169.pythonanywhere.com
 
-## APIs
+# APIs
 
-# GET
+## GET
 
 /api_root/client/ 전체 클라이언트
 
@@ -10,7 +10,7 @@ Service is working on host : pos05169.pythonanywhere.com
 
 /post/<int>/ 게시글 pk 검색
 
-# POST
+## POST
 
 /api_root/client/ 클라이언트 생성
 
@@ -20,10 +20,10 @@ Service is working on host : pos05169.pythonanywhere.com
 
 /post/<int>/edit/ 게시글 수정
 
-# PUT
+## PUT
 
 /api_root/client/<int>/ 클라이언트 수정
 
-# DELETE
+## DELETE
 
 /api_root/client/<int>/ 클라이언트 삭제
